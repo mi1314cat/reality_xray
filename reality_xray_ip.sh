@@ -1,6 +1,6 @@
 #!/bin/bash
 # REALITY一键安装脚本
-# Author: YouTube频道<https://www.youtube.com/@aifenxiangdexiaoqie>
+
 
 RED="\033[31m"      # Error message
 GREEN="\033[32m"    # Success message
@@ -211,7 +211,7 @@ EOF
 		USER_UUID[$i]=`cat /usr/local/etc/xray/uuid`
 
 		# 生成节点名称
-		USER_NAME[$i]="Reality(by小企鹅)_$i"	
+		USER_NAME[$i]="Reality-xary_$i"	
 
 		# 生成私钥和公钥
 		/usr/local/bin/xray x25519 > /usr/local/etc/xray/key
@@ -386,9 +386,8 @@ Xray() {
     echo "##################################################################"
     echo -e "#                   ${RED}Reality一键安装脚本${PLAIN}                                    #"
     echo -e "# ${GREEN}作者${PLAIN}: 爱分享的小企鹅                                                     #"
-    echo -e "# ${GREEN}网址${PLAIN}: hhttp://www.youtube.com/@aifenxiangdexiaoqie                       #"
-	echo -e "# ${GREEN}VPS选购攻略${PLAIN}：https://lovetoshare.top/archives/3.html                     #"
-	echo -e "# ${GREEN}年付10美金VPS推荐${PLAIN}：https://my.racknerd.com/aff.php?aff=9734&pid=838      #"	
+    echo -e "# ${GREEN}改${PLAIN}: catmi                      #"
+	
     echo "##################################################################"
 
     echo -e "  ${GREEN}  <Xray内核版本>  ${YELLOW}"	
