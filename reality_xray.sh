@@ -1,5 +1,12 @@
 #!/bin/bash
 # REALITY一键安装脚本
+printf "\e[92m"
+printf "                       |\\__/,|   (\\\\ \n"
+printf "                     _.|o o  |_   ) )\n"
+printf "       -------------(((---(((-------------------\n"
+printf "                 catmi.REALITY-xray \n"
+printf "       -----------------------------------------\n"
+printf "\e[0m"
 
 
 RED="\033[31m"      # Error message
