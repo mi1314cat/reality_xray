@@ -142,7 +142,7 @@ random_website() {
         "sky.com"
         "itunes.apple.com"
         "download-installer.cdn.mozilla.net"
-        "gateway.icloud.com"
+        "images-na.ssl-images-amazon.com"
         "swdist.apple.com"
         "swcdn.apple.com"
         "updates.cdn-apple.com"
