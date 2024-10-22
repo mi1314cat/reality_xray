@@ -149,6 +149,8 @@ random_website() {
         "mensura.cdn-apple.com"
         "osxapps.itunes.apple.com"
         "aod.itunes.apple.com"
+	"www.google-analytics.com"
+        "dl.google.com"
     )
 
     total_domains=${#domains[@]}
